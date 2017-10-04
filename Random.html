@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random</title>
+<script>
+    function showhide(){
+        if(document.getElementById("image").style.display == "none"){
+            document.getElementById('image').style.display = "block" ;
+        }
+        else{
+            document.getElementById('image').style.display = "none";
+        }
+    }
+    function visitPage(){
+        window.location='Random Coffee.html';
+    }
+</script>
+<style>
+    img {
+    display: block;
+    margin : 0 auto;
+    border-radius: 15%;
+    }
+    .button1{
+        font-size: 15px;
+        color: yellow;
+        background-size:cover;
+        background-image:url("http://pre12.deviantart.net/ca8b/th/pre/i/2012/365/8/3/peaceful_sunrise_by_qauz-d5pud5x.jpg");
+        border-radius:50%;
+        border:none;
+        padding: 15px 30px;
+    }
+    .button1:hover{background-color:red;}
+    .button1:active {
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}    
+    .h{
+    text-shadow: 0px 5px purple;
+}
+    .button2:active {
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}    
+</style>
+</head>
+
+
+<body bgcolor="black">
+    <center><img height=150px src="https://garystrachan63.files.wordpress.com/2017/08/random.gif"></center>
+    <p style="color:red"><font size=4>Hi,My name is Hantong. This website is called "Random". Everything
+    in this site are all random. I did this just for fun.
+    </p>
+    <center><button onclick="nothing()" class="button1">This random button does nothing.</button></center>
+
+    
+    <marquee><img height=300px src="http://news.nationalgeographic.com/content/dam/news/2017/03/14/genius_quiz/01_genius_quiz_einstein.jpg">
+    </marquee>
+    
+    <center><font size="10"><h2 class="h" style="color:white;">Random Jokes</h2></center>
+    <p style="color:yellow;"><font size=4>1. My dog used to chase people on a bike a lot. It
+    got so bad, finally I had to take his bike away.</p>
+    <p style="color:yellow"><font size=4>2. This week, our phones went dead and I  had to contact the Telephone repair people. They promised 
+    to be out between 8:00 a.m. and 7:00  p.m. When I asked if they could give me a smaller time window, 
+    the pleasant  gentleman asked, "Would you like us to call you before we come?" I replied that  I didn't
+    see how he would be able to do that since our phones weren't working. He also requested that we report 
+    future outages by email. Does YOUR email work  without a telephone line?</p>
+
+    <center><button class="button2" onclick="showhide()">Random-Magic</button></center>
+    
+    <img height=300px src="http://junkfoodreport.com/wp-content/uploads/2016/11/weback.jpg" id="image">
+    
+    <center><font size="14"><h3 class="h" style="color:white">Random Pictures</h3>
+
+    <marquee direction="right"><img height=300px src="https://tctechcrunch2011.files.wordpress.com/2015/08/safe_image.gif"></marquee>
+    </center>
+    <center><button onclick="visitPage();">Random Coffee</button></center>
+</body>    
+</html>
